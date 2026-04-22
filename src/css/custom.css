@@ -1,49 +1,279 @@
 /**
- * Expert To Product - Charte graphique
- * Bleu marine #1A2340 (fond) / Bleu glacier #C7D4F0 (accent)
+ * Journal Expert To Product - Identite editoriale
+ * Palette : blanc casse + vert sapin
+ * Typo    : Inter (titres) + Lora (corps) + IBM Plex Mono (code)
  */
 
+/* ====================================================
+   MODE CLAIR (par defaut)
+   ==================================================== */
 :root {
-  --ifm-color-primary: #1A2340;
-  --ifm-color-primary-dark: #161d36;
-  --ifm-color-primary-darker: #141a30;
-  --ifm-color-primary-darkest: #101628;
-  --ifm-color-primary-light: #1e284a;
-  --ifm-color-primary-lighter: #202b4e;
-  --ifm-color-primary-lightest: #24305a;
+  /* Primaire vert sapin */
+  --ifm-color-primary: #1F4438;
+  --ifm-color-primary-dark: #1A3B30;
+  --ifm-color-primary-darker: #173629;
+  --ifm-color-primary-darkest: #122B21;
+  --ifm-color-primary-light: #2A5A4A;
+  --ifm-color-primary-lighter: #346A58;
+  --ifm-color-primary-lightest: #4F8A75;
 
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* Fond et texte */
+  --ifm-background-color: #FAF8F3;
+  --ifm-background-surface-color: #FAF8F3;
+  --ifm-color-content: #2C3531;
+  --ifm-color-content-secondary: #5A6B65;
 
-  --ifm-navbar-background-color: #ffffff;
-  --ifm-footer-background-color: #1A2340;
-  --ifm-footer-color: #C7D4F0;
-  --ifm-footer-link-color: #C7D4F0;
-  --ifm-footer-title-color: #ffffff;
+  /* Bordures */
+  --ifm-color-emphasis-200: #E8E2D5;
+  --ifm-color-emphasis-300: #D4CCBA;
+  --ifm-toc-border-color: #E8E2D5;
+  --ifm-hr-border-color: #E8E2D5;
+
+  /* Code inline */
+  --ifm-code-background: #E8F0EC;
+  --ifm-code-color: #1F4438;
+  --docusaurus-highlighted-code-line-bg: rgba(31, 68, 56, 0.1);
+
+  /* Typographie */
+  --ifm-font-family-base: 'Lora', Georgia, 'Times New Roman', serif;
+  --ifm-heading-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --ifm-font-family-monospace: 'IBM Plex Mono', 'SF Mono', Menlo, Monaco, monospace;
+
+  --ifm-font-size-base: 17px;
+  --ifm-line-height-base: 1.7;
+  --ifm-heading-line-height: 1.25;
+  --ifm-heading-font-weight: 700;
+
+  /* Liens */
+  --ifm-link-color: #1F4438;
+  --ifm-link-hover-color: #2A5A4A;
+  --ifm-link-decoration: none;
+  --ifm-link-hover-decoration: underline;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #FAF8F3;
+  --ifm-navbar-shadow: 0 1px 0 #E8E2D5;
+  --ifm-navbar-link-color: #2C3531;
+  --ifm-navbar-link-hover-color: #1F4438;
+
+  /* Footer */
+  --ifm-footer-background-color: #1F4438;
+  --ifm-footer-color: #E8E2D5;
+  --ifm-footer-link-color: #FAF8F3;
+  --ifm-footer-link-hover-color: #FFFFFF;
+  --ifm-footer-title-color: #FAF8F3;
 }
 
-/* Dark mode - inverse des couleurs */
+/* ====================================================
+   MODE SOMBRE
+   ==================================================== */
 [data-theme='dark'] {
-  --ifm-color-primary: #C7D4F0;
-  --ifm-color-primary-dark: #a8bae6;
-  --ifm-color-primary-darker: #99aee2;
-  --ifm-color-primary-darkest: #6c8bd3;
-  --ifm-color-primary-light: #e6eefa;
-  --ifm-color-primary-lighter: #f5f8fd;
-  --ifm-color-primary-lightest: #ffffff;
+  --ifm-color-primary: #7BA690;
+  --ifm-color-primary-dark: #6A9B82;
+  --ifm-color-primary-darker: #5C8073;
+  --ifm-color-primary-darkest: #4A6B61;
+  --ifm-color-primary-light: #8DB6A0;
+  --ifm-color-primary-lighter: #9FC3B0;
+  --ifm-color-primary-lightest: #B5D2C2;
 
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-background-color: #1A2620;
+  --ifm-background-surface-color: #1A2620;
+  --ifm-color-content: #E8E2D5;
+  --ifm-color-content-secondary: #B5C2BB;
 
-  --ifm-background-color: #0f1628;
-  --ifm-navbar-background-color: #1A2340;
+  --ifm-color-emphasis-200: #2A3530;
+  --ifm-color-emphasis-300: #3A4540;
+  --ifm-toc-border-color: #2A3530;
+  --ifm-hr-border-color: #2A3530;
+
+  --ifm-code-background: #2A3530;
+  --ifm-code-color: #B5D2C2;
+  --docusaurus-highlighted-code-line-bg: rgba(123, 166, 144, 0.15);
+
+  --ifm-link-color: #7BA690;
+  --ifm-link-hover-color: #9FC3B0;
+
+  --ifm-navbar-background-color: #1A2620;
+  --ifm-navbar-shadow: 0 1px 0 #2A3530;
+  --ifm-navbar-link-color: #E8E2D5;
+  --ifm-navbar-link-hover-color: #7BA690;
+
+  --ifm-footer-background-color: #122B21;
+  --ifm-footer-color: #B5C2BB;
+  --ifm-footer-link-color: #E8E2D5;
+  --ifm-footer-title-color: #FAF8F3;
 }
 
-/* Logo navbar : un peu plus grand */
-.navbar__logo img {
-  height: 32px;
+/* ====================================================
+   AFFINEMENTS TYPOGRAPHIQUES
+   ==================================================== */
+
+/* Corps de texte en serif elegant */
+article p,
+article li,
+article blockquote {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 18px;
+  line-height: 1.75;
 }
 
-/* Hero section custom E2P */
-.hero--primary {
-  background: linear-gradient(135deg, #1A2340 0%, #2a3560 100%);
+/* Titres serres et impactants */
+h1, h2, h3, h4, h5, h6,
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+/* H1 article : grand et serieux */
+article h1 {
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+/* H2 sections : marquage editorial */
+article h2 {
+  font-size: 1.7rem;
+  margin-top: 2.5rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Citations en italique elegant */
+article blockquote {
+  font-style: italic;
+  border-left: 3px solid var(--ifm-color-primary);
+  padding-left: 1.5rem;
+  color: var(--ifm-color-content-secondary);
+  font-size: 1.1rem;
+}
+
+/* Code inline discret */
+code {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.9em;
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+}
+
+/* Liens dans le corps */
+article a {
+  text-decoration: underline;
+  text-decoration-color: var(--ifm-color-emphasis-300);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s ease;
+}
+
+article a:hover {
+  text-decoration-color: var(--ifm-color-primary);
+}
+
+/* ====================================================
+   NAVBAR EPUREE
+   ==================================================== */
+.navbar {
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  box-shadow: none;
+}
+
+.navbar__title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.navbar__link {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+/* ====================================================
+   LISTE D'ARTICLES (sidebar blog)
+   ==================================================== */
+.sidebar_re4s,
+aside h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+/* Annee dans la sidebar */
+aside h3 {
+  color: var(--ifm-color-primary);
+  letter-spacing: 0.02em;
+}
+
+/* ====================================================
+   MISE EN PAGE ARTICLE
+   ==================================================== */
+
+/* Largeur de lecture confortable (~70 caracteres par ligne) */
+article {
+  max-width: 720px;
+}
+
+/* Date et metadonnees */
+.margin-vert--md time,
+.margin-vert--md .col {
+  font-family: 'Inter', sans-serif;
+  color: var(--ifm-color-content-secondary);
+  font-size: 0.9rem;
+}
+
+/* Tags discrets */
+.badge {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  background-color: var(--ifm-code-background);
+  color: var(--ifm-color-primary);
+  border: none;
+}
+
+/* ====================================================
+   FOOTER
+   ==================================================== */
+.footer {
+  font-family: 'Inter', sans-serif;
+}
+
+.footer__title {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.footer__copyright {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+
+/* ====================================================
+   FIX : Footer dark mode coherent (vert sapin)
+   ==================================================== */
+[data-theme='dark'] .footer {
+  background-color: #122B21 !important;
+  color: #B5C2BB;
+  border-top: 1px solid #1F4438;
+}
+
+[data-theme='dark'] .footer__title {
+  color: #FAF8F3;
+}
+
+[data-theme='dark'] .footer__link-item {
+  color: #E8E2D5;
+}
+
+[data-theme='dark'] .footer__link-item:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+[data-theme='dark'] .footer__copyright {
+  color: #B5C2BB;
+  opacity: 0.8;
 }
