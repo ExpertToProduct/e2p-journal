@@ -1,0 +1,49 @@
+/**
+ * Expert To Product - Charte graphique
+ * Bleu marine #1A2340 (fond) / Bleu glacier #C7D4F0 (accent)
+ */
+
+:root {
+  --ifm-color-primary: #1A2340;
+  --ifm-color-primary-dark: #161d36;
+  --ifm-color-primary-darker: #141a30;
+  --ifm-color-primary-darkest: #101628;
+  --ifm-color-primary-light: #1e284a;
+  --ifm-color-primary-lighter: #202b4e;
+  --ifm-color-primary-lightest: #24305a;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-footer-background-color: #1A2340;
+  --ifm-footer-color: #C7D4F0;
+  --ifm-footer-link-color: #C7D4F0;
+  --ifm-footer-title-color: #ffffff;
+}
+
+/* Dark mode - inverse des couleurs */
+[data-theme='dark'] {
+  --ifm-color-primary: #C7D4F0;
+  --ifm-color-primary-dark: #a8bae6;
+  --ifm-color-primary-darker: #99aee2;
+  --ifm-color-primary-darkest: #6c8bd3;
+  --ifm-color-primary-light: #e6eefa;
+  --ifm-color-primary-lighter: #f5f8fd;
+  --ifm-color-primary-lightest: #ffffff;
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --ifm-background-color: #0f1628;
+  --ifm-navbar-background-color: #1A2340;
+}
+
+/* Logo navbar : un peu plus grand */
+.navbar__logo img {
+  height: 32px;
+}
+
+/* Hero section custom E2P */
+.hero--primary {
+  background: linear-gradient(135deg, #1A2340 0%, #2a3560 100%);
+}
