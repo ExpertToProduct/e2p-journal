@@ -24,3 +24,6 @@ package.json.bak
 # Backups timestampés des patches Python
 *.before_*
 *.tmp
+
+# Brouillons éditoriaux non publiés
+drafts/
