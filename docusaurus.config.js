@@ -41,7 +41,7 @@ const config = {
           routeBasePath: '/apropos',
         },
         blog: {
-          routeBasePath: '/',
+          routeBasePath: '/articles',
           showReadingTime: true,
           blogTitle: 'Journal Expert To Product',
           blogDescription: "Le journal d'un DAF qui transforme son expertise en produit",
@@ -74,7 +74,7 @@ const config = {
       },
       items: [
         {
-          to: '/',
+          to: '/articles',
           label: 'Articles',
           position: 'left',
         },
@@ -103,7 +103,7 @@ const config = {
           items: [
             {
               label: 'Articles',
-              to: '/',
+              to: '/articles',
             },
             {
               label: 'À propos',
