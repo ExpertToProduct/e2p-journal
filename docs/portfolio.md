@@ -75,6 +75,27 @@
 
 ---
 
+## STRATÉGIE E2P (décidée 11/06/2026)
+
+**Modèle** : licence locale + projet d'implémentation — PAS de SaaS en libre-service.
+- Offre principale : setup 15-25K€ (install locale, paramétrage plan comptable, formation) + maintenance 20%/an
+- Pilote early adopter : 8-12K€ contre cas client publiable
+- SaaS 800-1 500€/mois affiché "sur liste d'attente" (ancrage prix, test de demande)
+
+**Cible revenu** : 1-2 projets/an = 20-50K€ complémentaires, compatible 5-10h/semaine.
+
+**Deux portes d'entrée, un seul modèle** :
+- Cabinet / holding multi-entités → AI-Finance (consolidation)
+- Dirigeant / DAF PME → DAF-Virtuel (argument RGPD-native local)
+
+**Règle d'or** : rien en avance de phase. Devises + tests AI-Finance seulement quand un prospect conso existe. Les sprints servent : pitch deck, démo, usage KALO (= R&D payée).
+
+**Prérequis avant 1re vente** :
+- [ ] Accord écrit PI : code → E2P, données → KALO/Laerana
+- [ ] Démo anonymisée DAF-Virtuel (équivalent du mode "Groupe REUNION" d'AI-Finance)
+
+---
+
 ## CONVENTIONS DU FICHIER
 
 - Mise à jour : **fin de chaque sprint** (avec le `git status`) + relecture **lundi 07h00**
